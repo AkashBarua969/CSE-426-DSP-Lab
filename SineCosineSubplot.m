@@ -38,12 +38,14 @@ ylabel('Amplitude');               % Y-axis label
 grid on;                           % Grid lines help in observing the waveform
 
 %-------------------- Basic Concept ---------------------
-% 1. A sine wave is a periodic signal with period 2?.
+% 1. A sine wave is a periodic signal with period 2π.
 % 2. A cosine wave is also periodic with the same period,
-%    but it is phase-shifted by 90� (?/2 radians).
+%    but it is phase-shifted by 90° (π/2 radians).
 % 3. Sine and cosine are orthogonal signals (important in Fourier theory).
 % 4. In DSP labs, plotting these signals helps:
 %    - Learn MATLAB plotting and subplots.
 %    - Compare periodic signals side by side.
 %    - Visualize phase shift between sine and cosine.
 %--------------------------------------------------------
+
+
