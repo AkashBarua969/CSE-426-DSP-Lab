@@ -19,7 +19,7 @@ ylabel('sin(x)');                  % Label for y-axis
 grid on;                           % Add grid for clarity
 
 %-------------------- Basic Concept ---------------------
-% - A sine wave is a periodic signal (repeats every 2?).
+% - A sine wave is a periodic signal (repeats every 2π).
 % - It is fundamental in DSP because all periodic signals
 %   can be expressed as a sum of sines and cosines.
 % - In this lab, we generate and plot a sine wave to:
@@ -27,3 +27,4 @@ grid on;                           % Add grid for clarity
 %     2. Understand discrete sampling of a continuous function.
 %     3. Visualize amplitude and periodicity.
 %--------------------------------------------------------
+
