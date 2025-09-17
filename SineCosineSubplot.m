@@ -11,7 +11,7 @@ close all;      % Closes all figure windows so new plots open fresh
 % In DSP, signals are functions of time (continuous or discrete).
 % Here, we generate discrete samples of sine and cosine waves.
 
-x = 0:0.1:2*pi;   % Time axis sampled from 0 to 2? with step size 0.1
+x = 0:0.1:2*pi;   % Time axis sampled from 0 to 2π with step size 0.1
 y = sin(x);       % Sine wave values for each x
 z = cos(x);       % Cosine wave values for each x
 
@@ -47,5 +47,6 @@ grid on;                           % Grid lines help in observing the waveform
 %    - Compare periodic signals side by side.
 %    - Visualize phase shift between sine and cosine.
 %--------------------------------------------------------
+
 
 
