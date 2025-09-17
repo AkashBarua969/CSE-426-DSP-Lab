@@ -21,7 +21,7 @@ z = cos(x);       % Cosine wave values for each x
 % Here: subplot(2,1,1) ? 2 rows, 1 column, first plot.
 
 subplot(2,1,1);                    % Create the first subplot
-plot(x, y, 'b', 'LineWidth', 2);   % Plot sine wave in blue with thicker line
+plot(x, y, 'b', 'LineWidth', 2);   % Plot sine wave in blue with line thickness 2
 title('Sine Wave');                % Title for sine wave
 xlabel('Time (radians)');          % X-axis shows time in radians
 ylabel('Amplitude');               % Y-axis shows amplitude of sine wave
@@ -31,7 +31,7 @@ grid on;                           % Grid makes periodicity clearer
 % subplot(2,1,2) ? same figure window, but now use the second plot area.
 
 subplot(2,1,2);                    % Create the second subplot
-plot(x, z, 'r', 'LineWidth', 2);   % Plot cosine wave in red with thicker line
+plot(x, z, 'r', 'LineWidth', 2);   % Plot cosine wave in red with line thickness 2
 title('Cosine Wave');              % Title for cosine wave
 xlabel('Time (radians)');          % X-axis label
 ylabel('Amplitude');               % Y-axis label
@@ -47,6 +47,7 @@ grid on;                           % Grid lines help in observing the waveform
 %    - Compare periodic signals side by side.
 %    - Visualize phase shift between sine and cosine.
 %--------------------------------------------------------
+
 
 
 
